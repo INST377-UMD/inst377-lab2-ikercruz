@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .input-container {
+            margin: 5px;
+        }
+        .input-container label {
+            font-size: 20px;
+        }
+        button[type="submit"] {
+            color: rgb(113, 109, 109);
+            margin: 10px;
+        }
+        button[type="submit"]:hover {
+            background-color: rgb(0, 128, 2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill Out the Form, please</h1>
+    <form action="page2.html" method="get">
+        <div class="input-container">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">And ur email hereeee</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>    
+</body>
+</html>
